@@ -17,6 +17,8 @@ Here's the schematic:
 
 Oops, unlabelled - the potentiometer is 100k lin.
 
+Oops #2 - the final op amp block should be labelled 'Astable'.
+
 The coil in the prototype was 20 turns of wire wrap wire, 4cm diameter (toilet paper tube). The magnet was neodymium 10mm diameter, 3mm deep. A larger magnet and more turns are strongly recommended.
 
 ## How it Works
