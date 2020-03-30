@@ -41,6 +41,8 @@ The circuit is only a first pass, there's plenty of scope for improvement. I did
 
 ![Touch-Sensitive Spaghetti](https://github.com/danja/touch-sensitive/blob/master/media/spaghetti.jpeg "spaghetti")
 
+PS. Oh yeah, the title was inspired by [The Fall](https://www.youtube.com/watch?v=i90EMCj98es) :)
+
 
 
 
