@@ -13,7 +13,7 @@ Here's a rough video demonstrating it in action:
 
 Here's the latest schematic:
 
-![Touch-Sensitive Schematic](https://github.com/danja/touch-sensitive/blob/master/media/touch-sensitive-schematic.jpeg "schematic")
+![Touch-Sensitive Schematic](https://github.com/danja/touch-sensitive/blob/master/media/new-schematic.jpeg "schematic")
 
 Note that I had a breaking error in the previous schematic, the resistor on the input of the amplifier stage was labelled as 22k when in fact it was 220R. I misread the colour code.
 
