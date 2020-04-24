@@ -41,6 +41,8 @@ The output stage is a transistor acting as a switch. This drives a salvaged 2" (
 
 I knocked the circuit together on a small piece of stripboard. A DPDT switch controls the power with an LED and (2k2?) resistor as on indicator.
 
+I screwed a scrap of aluminium sheet to the output transistor as a heatsink, although this almost certainly wasn't essential. 
+
 ![Circuit Board](https://github.com/danja/touch-sensitive/blob/master/media/stripboard.jpeg "Circuit Board")
 
 In this version I made the coil from 200 turns of 0.5mm enamalled copper wire (salvaged from an old transformer). It's on a former made from 3 circles of acrylic sheet, 2 outer approx 10cm diameter, inner maybe 9cm, glued together. It has a length of fencing wire around the outside to protect turns and allow hanging, held in place with epoxy. The whole thing spray-painted and connected to the unit with a 3.5mm jack plug/socket via some 2 core power cable.  
@@ -49,7 +51,7 @@ In this version I made the coil from 200 turns of 0.5mm enamalled copper wire (s
 
 I had a little plastic box that the component *just* fit into. After drilling I gave it a coat of spray paint. The circuit board is fitted with plastic standoff posts, the loudspeaker hot-glued in place. 
 
-I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the road.cd tou	
+I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the road.	
 
 ![Finished](https://github.com/danja/touch-sensitive/blob/master/media/finished.jpeg "finished")
 
