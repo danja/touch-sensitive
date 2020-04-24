@@ -51,7 +51,7 @@ In this version I made the coil from 200 turns of 0.5mm enamalled copper wire (s
 
 I had a little plastic box that the component *just* fit into. After drilling I gave it a coat of spray paint. The circuit board is fitted with plastic standoff posts, the loudspeaker hot-glued in place. 
 
-I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the road.	
+I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the street.	
 
 ![Finished](https://github.com/danja/touch-sensitive/blob/master/media/finished.jpeg "finished")
 
