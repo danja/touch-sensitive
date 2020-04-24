@@ -9,27 +9,25 @@ This is a quick-and-dirty proof of concept, essentially a magnet-coil movement d
 
 Here's a rough video demonstrating it in action:
 
-[![Touch sensitive demo video](https://img.youtube.com/vi/Q7eCi2-oiOE/0.jpg)](https://youtu.be/Q7eCi2-oiOE)
+[![Touch sensitive demo video](https://img.youtube.com/vi/VTOSdUihxfs)](https://www.youtube.com/watch?v=VTOSdUihxfs)
 
-Here's the schematic:
+Here's the latest schematic:
 
 ![Touch-Sensitive Schematic](https://github.com/danja/touch-sensitive/blob/master/media/touch-sensitive-schematic.jpeg "schematic")
 
-Oops, unlabelled - the potentiometer is 100k lin.
+Note that I had a breaking error in the previous schematic, the resistor on the input of the amplifier stage was labelled as 22k when in fact it was 220R. I misread the colour code.
 
-Oops #2 - the final op amp block should be labelled 'Astable'.
-
-The coil in the prototype was 20 turns of wire wrap wire, 4cm diameter (toilet paper tube). The magnet was neodymium 10mm diameter, 3mm deep. A larger magnet and more turns are strongly recommended.
+Coil is 200 turns of 0.5mm enamelled copper wire, approx 10cm diameter.
 
 ## How it Works
 
 It's pretty much textbook op amp circuitry. 
 
-Any signal from the coil first goes into a low pass filter with cutoff frequency of around 30Hz. This frequency was chosen to remove most mains hum the coil might pick up at 50/60Hz. The filter has some gain - probably 10, but I can't remember the Q/gain interaction in this circuit, it might be quite peaky at 30Hz.
+Any signal from the coil first goes into a low pass filter with cutoff frequency of around 30Hz. This frequency was chosen to remove most mains hum the coil might pick up at 50/60Hz. .
 
-The next op amp acts as an inverting amplifier with a gain of about 50. If there's any high frequency instability, a small capacitor (say 100pF) in the feedback loop of this should help. 
+The next op amp acts as an inverting amplifier with a gain of about 500. If there's any high frequency instability, a small capacitor (say 100pF) in the feedback loop of this may help. 
 
-This is followed by a half-wave rectifier to effectively follow the peak amplitude of the signal. (Hah! I forgot to add a smoothing capacitor - that would probably improve behaviour).
+This is followed by a half-wave rectifier to effectively follow the peak amplitude of the signal.
 
 This LF DC*-ish!* signal is then feed to a 2N7000 MOSFET that is configured as a crude switch/relay. 
 
@@ -37,9 +35,25 @@ The final op amp is an oscillator running at about 1kHz (pulse wave). When the g
 
 The potentiometer should be adjusted to a position where the oscillation is *just* inhibited. 
  
-The output level can be fed to a little loudspeaker via a 10u capacitor. (Something like a 100u capacitor would probably be fine too - the op amp output is switching so there shouldn't be much heat generated). For the video I fed the output to some cheap computer speakers.
+The output stage is a transistor acting as a switch. This drives a salvaged 2" (?) speaker.
 
-The circuit is only a first pass, there's plenty of scope for improvement. I didn't play very much as the breadboard got a bit crowded.
+## Construction
+
+I knocked the circuit together on a small piece of stripboard. A DPDT switch controls the power with an LED and (2k2?) resistor as on indicator.
+
+![Circuit Board](https://github.com/danja/touch-sensitive/blob/master/media/stripboard.jpeg "Circuit Board")
+
+In this version I made the coil from 200 turns of 0.5mm enamalled copper wire (salvaged from an old transformer). It's on a former made from 3 circles of acrylic sheet, 2 outer approx 10cm diameter, inner maybe 9cm, glued together. It has a length of fencing wire around the outside to protect turns and allow hanging, held in place with epoxy. The whole thing spray-painted and connected to the unit with a 3.5mm jack plug/socket via some 2 core power cable.  
+
+![In case](https://github.com/danja/touch-sensitive/blob/master/media/in-case.jpeg "In case")
+
+I had a little plastic box that the component *just* fit into. After drilling I gave it a coat of spray paint. The circuit board is fitted with plastic standoff posts, the loudspeaker hot-glued in place. 
+
+I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the road.
+
+![Finished](https://github.com/danja/touch-sensitive/blob/master/media/finished.jpeg "finished")
+
+It came out rather neater than the breadboard version:
 
 ![Touch-Sensitive Spaghetti](https://github.com/danja/touch-sensitive/blob/master/media/spaghetti.jpeg "spaghetti")
 
