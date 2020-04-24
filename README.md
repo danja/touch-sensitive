@@ -9,7 +9,7 @@ This is a quick-and-dirty proof of concept, essentially a magnet-coil movement d
 
 Here's a rough video demonstrating it in action:
 
-[![Touch sensitive demo video](https://img.youtube.com/vi/VTOSdUihxfs)](https://www.youtube.com/watch?v=VTOSdUihxfs)
+[![Touch sensitive demo video](http://img.youtube.com/vi/VTOSdUihxfs/0.jpg)](https://www.youtube.com/watch?v=VTOSdUihxfs)
 
 Here's the latest schematic:
 
@@ -49,7 +49,7 @@ In this version I made the coil from 200 turns of 0.5mm enamalled copper wire (s
 
 I had a little plastic box that the component *just* fit into. After drilling I gave it a coat of spray paint. The circuit board is fitted with plastic standoff posts, the loudspeaker hot-glued in place. 
 
-I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the road.
+I made this one for a medic friend. I only realised as I was delivering it that I hadn't taken a pic of the finished unit so did that on the road.cd tou	
 
 ![Finished](https://github.com/danja/touch-sensitive/blob/master/media/finished.jpeg "finished")
 
